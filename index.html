@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body {
+  background-image: url('./images/bank3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.container{
+position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.6);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+.button {
+  /* opacity: 0.9; */
+  /* background-color: rgba(105, 76, 172, 0.989); */
+  background-color: transparent; 
+  border: 1px solid #3498db;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+h2{
+  color: white;
+  font-weight: bolder;
+}
+
+.button4 {border-radius: 15px;width: 90%;}
+.button5 {
+  border-radius: 15px;
+  width: 90%;
+}
+
+.home{
+  margin-top: 5%;
+}
+.edu{
+  margin-top: 5%;
+}
+.gold{
+  margin-top: 5%;
+}
+
+</style>
+</head>
+<body>
+<center>
+<h2>Loan Calculator</h2>
+
+<!-- <p>Add rounded corners to a button with the border-radius property:</p> -->
+<div class="container">
+<div class="home"><button class="button button4" onclick="window.location.href = 'calchome.html';">Home Loan</button></div>
+<div class = "edu"><button class="button button5" onclick="window.location.href = 'calcedu.html';">Education Loan</button></div>
+<div class = "gold"><button class="button button5" onclick="window.location.href = 'calcgold.html';">Gold Loan</button></div>
+</div>
+</center>
+
+</body>
+</html>
+
+
